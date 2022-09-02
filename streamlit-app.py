@@ -6,11 +6,7 @@ import streamlit as st
 from numpy import random
 
 """
-# Welcome to Theft Radar!
-"""
-
-"""
-### Bike Theft - Berlin
+# Berlin Bike Theft Radar!
 """
 
 
@@ -69,11 +65,11 @@ if agree:
     "#### Raw Data of Bike Theft in Berlin"
     data
 
-"#### Final Words"
 st.markdown("- Theft period is from January 2021 to May 2022.")
 st.markdown("- The exact geo coordinates are approximated using the information from data source.")
-st.markdown("- The exact geo coordinates may be error prone but neighbourhood trends will remain unchanged")
-st.markdown("- Developed by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan/)")
-st.markdown("- Contact Email: muhammad.ahsan@gmail.com")
 st.markdown(
     "- Data Source [www.govdata.de](https://www.govdata.de/web/guest/suchen/-/details/fahrraddiebstahl-in-berlin)")
+
+"#### Contact Developer"
+
+st.markdown("Programmed with ❤️ by [Muhammad Ahsan](https://www.linkedin.com/in/muhammad-ahsan/)")
