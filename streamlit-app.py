@@ -8,6 +8,12 @@ from numpy import random
 """
 # Berlin Bike Theft Radar!
 """
+"""
+Theft period is from January 2021 to May 2022. The exact geo coordinates are approximated using the 
+information from [data source](https://www.govdata.de/web/guest/suchen/-/details/fahrraddiebstahl-in-berlin).
+The next enhancement will include the deep learning based prediction model to predict geo-coordinates where theft 
+incident is about to occur.
+"""
 
 
 def get_updated_latitude(prev_latitude):
@@ -39,7 +45,8 @@ def get_updated_longitude(longitude, latitude):
     return longitude + (my_meters * m) / cos(latitude * (pi / 180))
 
 
-samples = st.slider("Number of samples", min_value=100, max_value=25000)
+"#### Number of samples"
+samples = st.slider("", min_value=100, max_value=25000)
 
 
 def load_data():
@@ -56,19 +63,14 @@ def load_data():
 
 data = load_data()
 
-"#### Geo Map Data"
+"#### Theft Map"
 st.map(data)
 
 agree = st.checkbox('Show raw data')
 
 if agree:
-    "#### Raw Data of Bike Theft in Berlin"
+    "#### Source Data"
     data
-
-st.markdown("- Theft period is from January 2021 to May 2022.")
-st.markdown("- The exact geo coordinates are approximated using the information from data source.")
-st.markdown(
-    "- Data Source [www.govdata.de](https://www.govdata.de/web/guest/suchen/-/details/fahrraddiebstahl-in-berlin)")
 
 "#### Contact Developer"
 
