@@ -1,7 +1,38 @@
-# Theft Radar
+# Bike Theft Radar
 
-Open up the application using https://theft-radar.streamlit.app/
-1. A radar application to visualise bike theft trends in Berlin.
-2. Exact Geo Locations might be error-prone.
-3. Neighbourhood trends remain robust.
-4. Data provided by regional government www.govdata.de
+Welcome to Bike Theft Radar, a radar application to visualize bike theft trends in Berlin.
+
+## Overview
+
+Bike theft is a common issue in urban areas, and understanding its trends can help cyclists and authorities take preventive measures. Bike Theft Radar provides a user-friendly interface to explore bike theft data in Berlin. The application visualizes the locations of reported bike theft incidents, helping users identify high-risk areas and trends over time.
+
+## Features
+
+- Interactive map visualization of bike theft incidents in Berlin.
+- Insightful analysis of theft trends by neighborhood.
+- Data sourced from the regional government website [www.govdata.de](https://www.govdata.de).
+
+## Usage
+
+To access the application, simply click on the following link: [Bike Theft Radar](https://theft-radar.streamlit.app/)
+
+### Note
+
+- Exact geo-locations of theft incidents might be error-prone due to various factors.
+- However, neighborhood-level trends remain robust and can provide valuable insights.
+
+## Feedback and Contribution
+
+Your feedback is valuable in improving Bike Theft Radar. If you encounter any issues, have suggestions for improvement, or would like to contribute to the project, please feel free to reach out.
+
+## Contact
+
+For inquiries or support, please contact us at [muhammad.ahsan@gmail.com](mailto:muhammad.ahsan@gmail.com).
+
+
+
+
+
+
+
+
