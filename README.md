@@ -1,14 +1,14 @@
 # Bike Theft Radar
 
-Welcome to Bike Theft Radar, a radar application to visualize bike theft trends in Berlin.
+Welcome to Bike Theft Radar, a radar application to visualize bike theft trends.
 
 ## Overview
 
-Bike theft is a common issue in urban areas, and understanding its trends can help cyclists and authorities take preventive measures. Bike Theft Radar provides a user-friendly interface to explore bike theft data in Berlin. The application visualizes the locations of reported bike theft incidents, helping users identify high-risk areas and trends over time.
+Bike theft is a common issue in urban areas, and understanding its trends can help cyclists and authorities take preventive measures. Bike Theft Radar provides a user-friendly interface to explore bike theft data. The application visualizes the locations of reported bike theft incidents, helping users identify high-risk areas and trends over time.
 
 ## Features
 
-- Interactive map visualization of bike theft incidents in Berlin.
+- Interactive map visualization of bike theft incidents
 - Insightful analysis of theft trends by neighborhood.
 - Data sourced from the regional government website [www.govdata.de](https://www.govdata.de).
 
