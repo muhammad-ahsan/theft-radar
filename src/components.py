@@ -41,7 +41,9 @@ class Body(IComponent):
         if selected_option == "Berlin":
             data_path = "data/bicycle_theft_berlin.csv"
         elif selected_option == "Los Angeles":
-            raise NotImplementedError("Not implemented yet")
+            st.info("Los Angeles is not supported yet")
+            return
+
         "#### Number of samples"
         samples = st.slider("Sample Size", min_value=100, max_value=25000)
 
@@ -56,10 +58,11 @@ class Body(IComponent):
             st.dataframe(data)
             st.subheader("About Dataset")
 
-            st.markdown("""Theft period is from January 2021 to May 2022. The exact geo coordinates are approximated using the
-            information from [data source](https://www.govdata.de/web/guest/suchen/-/details/fahrraddiebstahl-in-berlin).
-            The next enhancement will include the deep learning based prediction model to predict geo-coordinates where theft
-            incident is about to occur""")
+            st.markdown("""Theft period is from January 2021 to May 2022. The exact geo coordinates are 
+            approximated using the information from 
+            [data source](https://www.govdata.de/web/guest/suchen/-/details/fahrraddiebstahl-in-berlin).
+            The next enhancement will include the deep learning based prediction model to predict
+            geo-coordinates where theft incident is about to occur""")
 
 
 class Footer(IComponent):
