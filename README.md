@@ -21,6 +21,16 @@ To access the application, simply click on the following link: [Bike Theft Radar
 - Exact geo-locations of theft incidents might be error-prone due to various factors.
 - However, neighborhood-level trends remain robust and can provide valuable insights.
 
+## How to Build Docker
+
+``` 
+docker build -t theft-radar .
+```
+
+## Run Docker
+```
+docker run -p 8000:8000 theft-radar
+```
 ## Feedback and Contribution
 
 Your feedback is valuable in improving Bike Theft Radar. If you encounter any issues, have suggestions for improvement, or would like to contribute to the project, please feel free to reach out.
@@ -28,7 +38,6 @@ Your feedback is valuable in improving Bike Theft Radar. If you encounter any is
 ## Contact
 
 For inquiries or support, please contact us at [muhammad.ahsan@gmail.com](mailto:muhammad.ahsan@gmail.com).
-
 
 
 
