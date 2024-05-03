@@ -17,4 +17,6 @@ RUN pipenv install --system --deploy --ignore-pipfile
 # Expose the port that Streamlit runs on
 EXPOSE 8501
 
-CMD ["streamlit", "run", "streamlit-app.py"]
+HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health
+
+ENTRYPOINT ["streamlit", "run", "streamlit-app.py", "--server.port=8501", "--server.address=0.0.0.0"]
