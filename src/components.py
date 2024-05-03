@@ -43,7 +43,7 @@ class Body(IComponent):
         elif selected_option == "Los Angeles":
             raise NotImplementedError("Not implemented yet")
         "#### Number of samples"
-        samples = st.slider("", min_value=100, max_value=25000)
+        samples = st.slider("Sample Size", min_value=100, max_value=25000)
 
         data = load_data(data_path, samples)
 
